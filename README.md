@@ -1,10 +1,6 @@
 # BoxModel
-Mac OS design box model using JavaScript, and Css
 
-# MOVIE-API
-
-Movie-API build on Node.js with Express framework to service movies for customers. it build in Model-View-Controller (MVC) architectural/design pattern that 
-separates an application into three main logical components Model, View, and Controller. 
+BoxModel build using JavaScript, CSS,  and HTML.
 
 ## Usage
 
