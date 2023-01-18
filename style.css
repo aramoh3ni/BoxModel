@@ -1,0 +1,140 @@
+/* 
+
+# desgin and developed by : Alireza Mohseni
+# version: v1.0.0
+# email: alireza.mohseni.se@gmail.com
+
+# Copyright ©️ MIT
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500&display=swap');
+
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-image: url(./assets/mac-light-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SCROLLBAR DESIGN */
+*::-webkit-scrollbar {
+    width: .5em;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(104, 104, 104, 0.082);
+    border-radius: 10px;
+}
+
+/* END SCROLLBAR */
+
+/* TYPOGRAPHY */
+h1 {
+    font-size: 20px;
+}
+
+p {
+    font-weight: 300;
+    overflow: hidden;
+}
+
+/* END - TYPOGRAPHY */
+
+/* MODEL - DESIGN */
+.model {
+    margin: 2rem;
+    border-radius: 8px;
+    background-color: #121212;
+    color: rgb(240, 248, 255);
+    box-shadow: 15px 10px 3rem .5px rgba(0, 0, 0, 0.527);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.model .body-model {
+    padding: 1rem 1rem;
+    height: 85%;
+    overflow: auto;
+}
+
+.model .title-model {
+    font-size: x-large;
+    margin-bottom: .5em;
+}
+
+
+.header-model button {
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* END MODEL  */
+
+/* MODEL - SIZE */
+.sm-model {
+    max-width: 800px;
+    max-height: 500px;
+    /* overflow: hidden; */
+}
+
+/* END MODEL - SIZE */
+
+.md-model {
+    width: 80%;
+    height: 60%;
+}
+
+/* MODEL - HEADER DESIGN */
+
+.header-model {
+    background-color: #282828;
+    padding: 1rem 1rem;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* END - HEADER */
+
+/* OTHERS */
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    z-index: 4;
+    padding: .5rem .9rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgba(20, 42, 61, 0.856);
+    color: rgba(240, 248, 255, 0.815);
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.37);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
